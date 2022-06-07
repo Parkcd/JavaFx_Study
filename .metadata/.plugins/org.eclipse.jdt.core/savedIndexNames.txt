@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+D:\psh_data\javafx_data\.metadata\.plugins\org.eclipse.jdt.core
+2985966566.index
+3639611844.index
+3517062245.index
+2892956262.index
+3572111374.index
+168336843.index
+1787091364.index
+2112099171.index
+420548696.index
+962614965.index
