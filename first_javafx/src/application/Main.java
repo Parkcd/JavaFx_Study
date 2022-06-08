@@ -1,20 +1,28 @@
 package application;
 	
 import javafx.application.Application;
-import javafx.stage.Stage;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 
 
 public class Main extends Application {
 	@Override
-	public void start(Stage primaryStage) {
+	public void start(Stage stage) {
 		try {
-			BorderPane root = new BorderPane();
-			Scene scene = new Scene(root,400,400);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			primaryStage.setScene(scene);
-			primaryStage.show();
+			
+			// stage > scene > container > node
+			
+			Pane pane = new Pane(); // container
+			
+			Scene scene = new Scene(pane , 300 ,500);
+			
+			stage.setScene(scene);
+			
+			stage.show();
+			stage.setTitle("My Windows"); // Title 이름 
+			stage.setResizable(false); //크기 조절 불가
+			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
