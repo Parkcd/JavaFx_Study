@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="214.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="173.0" fitWidth="414.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/javalogo.jpg" />
+         </image>
+         <VBox.margin>
+            <Insets left="40.0" />
+         </VBox.margin>
+      </ImageView>
+      <HBox prefHeight="40.0" prefWidth="500.0">
+         <children>
+            <Button mnemonicParsing="false" text="Button">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="389.0" text="Button">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
