@@ -1,0 +1,16 @@
+/* 전체 Label 선택 */
+Label {
+    -fx-padding: 5px;
+}
+
+/* id="IblId" 를 가진 컨트롤 선택*/
+#IblId {
+    -fx-background-color: black;
+    -fx-text-fill: yellow;
+}
+
+/* styleClass="IblClass"을 가진 컨트롤 선택 */
+.IblClass {
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}
