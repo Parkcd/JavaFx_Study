@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1024.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DBSearchController">
+   <children>
+      <JFXButton fx:id="searchButton" layoutX="838.0" layoutY="290.0" onAction="#handleSearch" prefHeight="40.0" prefWidth="60.0" ripplerFill="#a5d9e1" style="-fx-background-color: #206a5d;" text="검색" textFill="WHITE" AnchorPane.rightAnchor="382.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="Table" layoutX="139.0" layoutY="381.0" prefHeight="453.0" prefWidth="1000.0" AnchorPane.leftAnchor="139.0" AnchorPane.rightAnchor="139.0">
+         <columns>
+            <TableColumn fx:id="colName" prefWidth="130.0" text="약 이름" />
+            <TableColumn fx:id="imageCol" prefWidth="75.0" text="약 모양" />
+            <TableColumn fx:id="colCharacter" prefWidth="130.0" text="약 성분 및 외형" />
+            <TableColumn fx:id="colEffect" prefWidth="130.0" text="효능" />
+            <TableColumn fx:id="colWarning" prefWidth="210.0" text="복용지도 및 주의사항" />
+            <TableColumn fx:id="colExpiration" prefWidth="100.0" text="유통기한" />
+            <TableColumn fx:id="colCompany" prefWidth="100.0" text="제약회사" />
+            <TableColumn fx:id="colPrice" prefWidth="100.0" text="가격" />
+            <TableColumn fx:id="colStock" prefWidth="100.0" text="재고" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="btnHome" layoutX="550.0" layoutY="887.0" onAction="#handlebtn" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #206a5d;" text="나가기" textFill="WHITE" AnchorPane.leftAnchor="550.0" AnchorPane.rightAnchor="550.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="textField" focusColor="#206a5d" layoutX="382.0" layoutY="259.0" prefHeight="71.0" prefWidth="447.0" />
+      <ImageView fitHeight="150.0" fitWidth="400.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/3Dlogo(hires).gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="ManagerOrViewer" layoutX="17.0" layoutY="170.0" prefHeight="22.0" prefWidth="175.0" />
+      <Label layoutX="555.0" layoutY="76.0" text="DB검색" textFill="#206a5d">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="Searchimg" fitHeight="214.0" fitWidth="329.0" layoutX="950.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

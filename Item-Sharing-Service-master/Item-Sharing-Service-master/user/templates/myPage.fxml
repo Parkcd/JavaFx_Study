@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="660.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.MyPageController">
+   <children>
+      <VBox prefHeight="660.0" prefWidth="440.0">
+         <children>
+            <HBox fx:id="mpTopHbox" prefHeight="34.0" prefWidth="440.0">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label fx:id="mpTitle" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="45.0" prefWidth="279.0" text="Item Sharing Service" HBox.hgrow="ALWAYS" />
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="24.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/user_icon.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <AnchorPane fx:id="mpBackColor" prefHeight="90.0" prefWidth="448.0">
+               <children>
+                  <HBox fx:id="mpBtnColor" layoutY="54.0" prefHeight="27.0" prefWidth="440.0">
+                     <children>
+                        <Button fx:id="mpBtn1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="전체" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mpBtn2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="기내용품" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mpBtn3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="캐리어" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mpBtn4" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="카메라장비" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mpBtn5" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="생필품" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mpBtn6" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="기타" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/notice.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="52.0" layoutY="18.0" text="이용 관련 수칙이 궁금하시면 클릭해주세요" />
+                  <Button fx:id="mpNoticeBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mpLink" prefHeight="22.0" prefWidth="274.0" style="-fx-background-color: transparent;" />
+               </children>
+            </AnchorPane>
+            <Line fx:id="mpLine1" endX="346.492919921875" endY="0.5575693249702454" startX="-100.0" />
+            <Label fx:id="mpLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="41.0" prefWidth="440.0" text="My Page" />
+            <Line fx:id="mpLine2" endX="346.492919921875" endY="0.5575693249702454" startX="-100.0" />
+            <AnchorPane prefHeight="234.0" prefWidth="442.0">
+               <children>
+                  <ImageView fitHeight="69.0" fitWidth="73.0" layoutX="93.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/user_black_icon.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="mypage_name" layoutX="87.0" layoutY="117.0" />
+                  <Label layoutX="132.0" layoutY="117.0" text="고객님" />
+                  <Label layoutX="231.0" layoutY="65.0" text="아이디" />
+                  <Label fx:id="mypage_id" layoutX="293.0" layoutY="65.0" />
+                  <Label layoutX="231.0" layoutY="85.0" text="연락처" />
+                  <Label fx:id="mypage_phone" layoutX="293.0" layoutY="85.0" />
+                  <HBox alignment="CENTER" layoutX="-1.0" layoutY="172.0" prefHeight="27.0" prefWidth="442.0">
+                     <children>
+                        <Button fx:id="mpMythingsBtn" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#moveMyThings" text="등록한 물품" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="70.0" right="30.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="mpYourthingsBtn" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#moveYourThings" text="대여한 물품" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="30.0" right="70.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <Line fx:id="mpLine3" endX="346.492919921875" endY="0.5575693249702454" startX="-100.0" />
+            <Label fx:id="mpNotificationLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="41.0" prefWidth="440.0" text="NOTIFICATION" />
+            <Line fx:id="mpLine4" endX="346.492919921875" endY="0.5575693249702454" startX="-100.0" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="mpNotiView" layoutX="12.0" layoutY="11.0" prefHeight="167.0" prefWidth="422.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <Button fx:id="mpMoveUserHome" layoutX="155.0" layoutY="8.0" mnemonicParsing="false" onAction="#moveUserHome" prefHeight="27.0" prefWidth="131.0" style="-fx-background-color: #00000000;" />
+   </children>
+</AnchorPane>

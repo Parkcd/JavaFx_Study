@@ -1,0 +1,45 @@
+.root {
+	-fx-background-size: 400 600;
+}
+#loginBackImage {
+	-fx-background-size: 400 600;
+}
+#loginBackColor {
+	-fx-background-size: 400 600;
+	-fx-background-color: #07186e;
+	-fx-opacity: 0.75;
+}
+#UserLogin {
+	-fx-text-fill: white;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+}
+#inputID {
+	-fx-border-color: linear-gradient(to left, #FA8C25, #F5119A);
+	-fx-border-radius: 20px;
+	-fx-border-width: 4px;
+	-fx-background-size: 190 20;
+	-fx-text-fill: white;
+}
+#inputPW {
+	-fx-border-color: linear-gradient(to left, #FA8C25, #F5119A);
+	-fx-border-radius: 20px;
+	-fx-border-width: 4px;
+	-fx-background-size: 190 20;
+	-fx-text-fill: white;
+}
+Button {
+	-fx-background-color: linear-gradient(to left, #FA8C25, #F5119A);
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+#toHome {
+	-fx-background-color: white;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: transparent;
+	-fx-font-weight: bold;
+}

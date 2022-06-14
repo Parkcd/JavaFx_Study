@@ -1,0 +1,22 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#anPane{
+
+
+
+}
+
+#btnRegister
+{
+	-fx-background-color:#206a5d;
+	-fx-border-width: 3;
+    -fx-border-radius: 30;
+
+
+}
+
+#btnLogin
+{
+	-fx-background-color:#1b1c25;
+
+}

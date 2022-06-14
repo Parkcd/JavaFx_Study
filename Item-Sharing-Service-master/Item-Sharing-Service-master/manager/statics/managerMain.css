@@ -1,0 +1,115 @@
+#mmtopHbox {
+	-fx-background-color: #6b3cab;
+}
+#mmBackColor {
+	-fx-background-color: #8b6ab8;
+}
+#managerTitle {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+#mmBtnColor {
+	-fx-background-color: #8b6ab8;
+}
+#mmTotalLabel {
+	-fx-font-weight: bold;
+}
+#mmNumTotal {
+	-fx-text-fill: black;
+}
+#mmEraseBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-width: 0px;
+  	-fx-border-radius: 20px;
+  	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+}
+Label {
+	-fx-font-weight: bold;
+}
+Button {
+	-fx-font-weight: bold;
+}
+#mmNoticeBtn {
+	-fx-background-color: transparent;
+}
+.table-view {
+	-fx-background-color: transparent;
+}
+.table-view:focused {
+	-fx-background-color: transparent;
+}
+.table-view .colmmn-header-background {
+	-fx-background-color: #8b6ab8;
+}
+.table-view .colmmn-header-background .label {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+}
+.table-view .colmmn-header {
+	-fx-background-color: #8b6ab8;
+}
+.table-view .table-cell {
+	-fx-text-fill: black;
+	-fx-font-size: 14px;
+}
+.table-row-cell {
+	-fx-background-color: transparent;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-padding: 0.0em;
+}
+.table-row-cell:selected {
+    -fx-background-color: -fx-table-cell-border-color, #8b6ab8;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+#mmbtn1 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+  	-fx-font-size: 14px;
+}
+#mmbtn2 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+  	-fx-font-size: 14px;
+}
+#mmbtn3 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+  	-fx-font-size: 14px;
+}
+#mmbtn4 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+  	-fx-font-size: 14px;
+}
+#mmbtn5 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+  	-fx-font-size: 14px;
+}
+#mmbtn6 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+  	-fx-font-size: 14px;
+}

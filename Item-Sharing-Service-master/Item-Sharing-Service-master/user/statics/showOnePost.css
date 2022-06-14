@@ -1,0 +1,92 @@
+#sopTopHbox {
+	-fx-background-color: #6b3cab;
+}
+#sopTitle {
+	-fx-text-fill: white;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+}
+#sopBackColor {
+	-fx-background-color: #8b6ab8;
+}
+Line {
+	-fx-stroke: #6b3cab;
+	-fx-stroke-width: 3px;
+}
+Label {
+	-fx-font-weight: bold;
+}
+Button {
+	-fx-font-weight: bold;
+}
+#sopNotiveBtn {
+	-fx-background-color: transparent;
+}
+#sopBtnColor {
+	-fx-background-color: #8b6ab8;
+}
+#sopLikeBtn {
+	-fx-background-color: transparent;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-border-width: 0px;
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+}
+#sopMoveUserHomeBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+#sopRentBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+#sopBtn1 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#sopBtn2 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#sopBtn3 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#sopBtn4 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#sopBtn5 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#sopBtn6 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}

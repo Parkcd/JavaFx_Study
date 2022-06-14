@@ -1,0 +1,90 @@
+#mpTopHbox {
+	-fx-background-color: #6b3cab;
+}
+#mpTitle {
+	-fx-text-fill: white;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+}
+#mpBackColor {
+	-fx-background-color: #8b6ab8;
+}
+Line {
+	-fx-stroke: #6b3cab;
+	-fx-stroke-width: 5px;
+}
+Label {
+	-fx-font-weight: bold;
+}
+Button {
+	-fx-font-weight: bold;
+}
+#mpNotiveBtn {
+	-fx-background-color: transparent;
+}
+#mpLabel {
+	-fx-text-fill: #6b3cab;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+}
+#mpNotificationLabel {
+	-fx-text-fill: #6b3cab;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+}
+#mpMythingsBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+#mpYourthingsBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+#mpNotiView {
+	
+}
+#mpBtnColor {
+	-fx-background-color: transparent;
+}
+#mpBtn1 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+}
+#mpBtn2 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+}
+#mpBtn3 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+}
+#mpBtn4 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+}
+#mpBtn5 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+}
+#mpBtn6 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+}

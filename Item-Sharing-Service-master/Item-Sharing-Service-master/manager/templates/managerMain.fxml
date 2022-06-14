@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="660.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manager.managerController">
+   <children>
+      <AnchorPane fx:id="mmBackColor" layoutY="35.0" prefHeight="176.0" prefWidth="440.0" />
+      <VBox prefHeight="660.0" prefWidth="440.0">
+         <children>
+            <HBox fx:id="mmtopHbox" prefHeight="34.0" prefWidth="440.0">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label fx:id="managerTitle" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="45.0" prefWidth="279.0" text="Item Sharing Service" HBox.hgrow="ALWAYS" />
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="220.0" prefWidth="440.0">
+               <children>
+                  <HBox fx:id="mmBtnColor" layoutY="55.0" prefHeight="26.0" prefWidth="440.0">
+                     <children>
+                        <Button fx:id="mmbtn1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#mmbtn1" text="전체" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mmbtn2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#mmbtn2" text="기내용품" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mmbtn3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#mmbtn3" text="캐리어" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mmbtn4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#mmbtn4" text="카메라장비" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mmbtn5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#mmbtn5" text="생필품" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="mmbtn6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#mmbtn6" text="기타" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="18.0" layoutY="173.0" prefHeight="20.0" prefWidth="193.0">
+                     <children>
+                        <Label fx:id="mmTotalLabel" maxHeight="1.7976931348623157E308" text="TOTAL  " HBox.hgrow="ALWAYS" />
+                        <Label fx:id="mmNumTotal" maxHeight="1.7976931348623157E308" text="0" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="mmEraseBtn" layoutX="372.0" layoutY="171.0" mnemonicParsing="false" onAction="#managerErase" text="삭제" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="27.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../user/images/notice.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="56.0" layoutY="18.0" text="이용 관련 수칙이 궁금하시면 클릭해주세요" />
+                  <Button fx:id="mmNoticeBtn" layoutX="18.0" layoutY="14.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="274.0" style="-fx-background-color: transparent;" />
+               </children>
+            </AnchorPane>
+            <TableView fx:id="mmItemListTable" prefHeight="416.0" prefWidth="440.0">
+               <columns>
+                  <TableColumn fx:id="nCol" prefWidth="36.800048828125" text="순번" />
+                  <TableColumn fx:id="mmNameCol" prefWidth="173.5999755859375" text="제목" />
+                  <TableColumn fx:id="mmIdCol" prefWidth="85.5999755859375" text="작성자" />
+                  <TableColumn fx:id="mmRentCol" prefWidth="48.79998779296875" text="대여" />
+                  <TableColumn fx:id="mmPriceCol" prefWidth="95.20001220703125" text="하루가격" />
+               </columns>
+            </TableView>
+         </children>
+      </VBox>
+      <Button layoutX="404.0" layoutY="8.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="31.0" style="-fx-background-color: #00000000;" />
+      <Button layoutX="370.0" layoutY="9.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="31.0" style="-fx-background-color: #00000000;" />
+      <ImageView fitHeight="82.0" fitWidth="440.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../user/images/banner1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

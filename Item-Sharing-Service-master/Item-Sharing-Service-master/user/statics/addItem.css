@@ -1,0 +1,84 @@
+#aiTopHbox {
+	-fx-background-color: #6b3cab;
+}
+#aiTitle {
+	-fx-text-fill: white;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+}
+#aiBackColor {
+	-fx-background-color: #8b6ab8;
+}
+Label {
+	-fx-font-weight: bold;
+}
+Button {
+	-fx-font-weight: bold;
+}
+#aiNotiveBtn {
+	-fx-background-color: transparent;
+}
+#aiMoveUserHomeBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+#aiPostSubmitBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+#contents {
+	-fx-alignment: center;
+	-fx-font-weight: bold;
+}
+#aiBtnColor {
+	-fx-background-color: #8b6ab8;
+}
+#aiBtn1 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#aiBtn2 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#aiBtn3 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#aiBtn4 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#aiBtn5 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#aiBtn6 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}

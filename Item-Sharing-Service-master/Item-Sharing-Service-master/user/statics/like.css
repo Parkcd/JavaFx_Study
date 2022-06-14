@@ -1,0 +1,113 @@
+#likeTopHbox {
+	-fx-background-color: #6b3cab;
+}
+#likeTitle {
+	-fx-text-fill: white;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+}
+#likeBackColor {
+	-fx-background-color: #8b6ab8;
+}
+Line {
+	-fx-stroke: #6b3cab;
+	-fx-stroke-width: 5px;
+}
+Label {
+	-fx-font-weight: bold;
+}
+Button {
+	-fx-font-weight: bold;
+}
+#likeNotiveBtn {
+	-fx-background-color: transparent;
+}
+#likeLabel {
+	-fx-text-fill: #6b3cab;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+}
+#likeBtnColor {
+	-fx-background-color: #8b6ab8;
+}
+#likeEraseBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+.table-view {
+	-fx-background-color: transparent;
+}
+.table-view:focused {
+	-fx-background-color: transparent;
+}
+.table-view .column-header-background {
+	-fx-background-color: #8b6ab8;
+}
+.table-view .column-header-background .label {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+}
+.table-view .column-header {
+	-fx-background-color: #8b6ab8;
+}
+.table-view .table-cell {
+	-fx-text-fill: black;
+	-fx-font-size: 14px;
+}
+.table-row-cell {
+	-fx-background-color: transparent;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-padding: 0.0em;
+}
+.table-row-cell:selected {
+    -fx-background-color: -fx-table-cell-border-color, #8b6ab8;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+#likeBtn1 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#likeBtn2 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#likeBtn3 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#likeBtn4 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#likeBtn5 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#likeBtn6 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}

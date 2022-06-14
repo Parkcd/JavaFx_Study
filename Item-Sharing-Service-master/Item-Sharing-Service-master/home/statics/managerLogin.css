@@ -1,0 +1,38 @@
+.root {
+	-fx-background-size: 400 600;
+}
+#managerloginBackImage {
+	-fx-background-size: 400 600;
+}
+#managerloginBackColor {
+	-fx-background-size: 400 600;
+	-fx-background-color: #07186e;
+	-fx-opacity: 0.75;
+}
+#ManagerLogin {
+	-fx-text-fill: white;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+}
+#inputManagerID {
+	-fx-border-color: linear-gradient(to left, #FA8C25, #F5119A);
+	-fx-border-radius: 20px;
+	-fx-border-width: 4px;
+	-fx-background-size: 190 20;
+	-fx-text-fill: white;
+}
+#inputManagerPW {
+	-fx-border-color: linear-gradient(to left, #FA8C25, #F5119A);
+	-fx-border-radius: 20px;
+	-fx-border-width: 4px;
+	-fx-background-size: 190 20;
+	-fx-text-fill: white;
+}
+Button {
+	-fx-background-color: linear-gradient(to left, #FA8C25, #F5119A);
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}

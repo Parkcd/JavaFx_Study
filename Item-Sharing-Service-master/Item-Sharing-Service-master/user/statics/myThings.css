@@ -1,0 +1,129 @@
+#mtTopHbox {
+	-fx-background-color: #6b3cab;
+}
+#mtTitle {
+	-fx-text-fill: white;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+}
+#mtMythingsLabel {
+	-fx-text-fill: #8b6ab8;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+}
+#mtBackColor {
+	-fx-background-color: #8b6ab8;
+}
+TestField {
+	-fx-font-weight: bold;
+}
+Line {
+	-fx-stroke: #6b3cab;
+	-fx-stroke-width: 5px;
+}
+Label {
+	-fx-font-weight: bold;
+}
+Button {
+	-fx-font-weight: bold;
+}
+#mtNotiveBtn {
+	-fx-background-color: transparent;
+}
+#mtMythingLabel {
+	-fx-text-fill: #6b3cab;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+}
+#mtMoveMypageBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+#mtEraseBtn {
+	-fx-background-color: #8b6ab8;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+.table-view {
+	-fx-background-color: transparent;
+}
+.table-view:focused {
+	-fx-background-color: transparent;
+}
+.table-view .column-header-background {
+	-fx-background-color: #8b6ab8;
+}
+.table-view .column-header-background .label {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+}
+.table-view .column-header {
+	-fx-background-color: #8b6ab8;
+}
+.table-view .table-cell {
+	-fx-text-fill: black;
+	-fx-font-size: 14px;
+}
+.table-row-cell {
+	-fx-background-color: transparent;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-padding: 0.0em;
+}
+.table-row-cell:selected {
+    -fx-background-color: -fx-table-cell-border-color, #8b6ab8;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+#mtBtnColor {
+	-fx-background-color: #8b6ab8;
+}
+#mtBtn1 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#mtBtn2 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#mtBtn3 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#mtBtn4 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#mtBtn5 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
+#mtBtn6 {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+  	-fx-font-weight: bold;
+  	-fx-border-width: 0px;
+  	-fx-border-color: transparent;
+}
