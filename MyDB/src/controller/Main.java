@@ -188,5 +188,7 @@ public class Main extends Application {
 	public void endAction() {
 		Platform.exit();
 	}
+	
+
 
 }

@@ -6,44 +6,44 @@ create table  component_stock (
     CONSTRAINT pk_component PRIMARY KEY (component_code)
 );
 
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('BT-01','Î∞∞ÌÑ∞Î¶¨',5,'B17');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('BT-02','Î∞∞ÌÑ∞Î¶¨',4,'B17');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('BT-03','Î∞∞ÌÑ∞Î¶¨',4,'B17');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('BT-01','πË≈Õ∏Æ',5,'B17');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('BT-02','πË≈Õ∏Æ',4,'B17');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('BT-03','πË≈Õ∏Æ',4,'B17');
 
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('CS-01','ÏΩîÏùºÏä§ÌîÑÎßÅ',6,'C6');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('CS-02','ÏΩîÏùºÏä§ÌîÑÎßÅ',3,'C6');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('CS-03','ÏΩîÏùºÏä§ÌîÑÎßÅ',7,'C7');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('CS-04','ÏΩîÏùºÏä§ÌîÑÎßÅ',7,'C7');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('CS-01','ƒ⁄¿œΩ∫«¡∏µ',6,'C6');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('CS-02','ƒ⁄¿œΩ∫«¡∏µ',3,'C6');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('CS-03','ƒ⁄¿œΩ∫«¡∏µ',7,'C7');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('CS-04','ƒ⁄¿œΩ∫«¡∏µ',7,'C7');
 
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('EP-01','Î∞∞Í∏∞Í¥Ä',5,'E3');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('EP-02','Î∞∞Í∏∞Í¥Ä',4,'E3');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('EP-03','Î∞∞Í∏∞Í¥Ä',4,'E3');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('EP-01','πË±‚∞¸',5,'E3');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('EP-02','πË±‚∞¸',4,'E3');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('EP-03','πË±‚∞¸',4,'E3');
 
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-01','ÎÇòÏÇ¨',85,'N21');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-02','ÎÇòÏÇ¨',1100,'N21');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-03','ÎÇòÏÇ¨',135,'N22');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-04','ÎÇòÏÇ¨',273,'N22');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-05','ÎÇòÏÇ¨',285,'N22');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-01','≥™ªÁ',85,'N21');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-02','≥™ªÁ',1100,'N21');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-03','≥™ªÁ',135,'N22');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-04','≥™ªÁ',273,'N22');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('NS-05','≥™ªÁ',285,'N22');
 
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('SW-01','ÏÜåÏùåÍ∏∞',6,'S11');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('SW-02','ÏÜåÏùåÍ∏∞',7,'S11');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('SW-03','ÏÜåÏùåÍ∏∞',5,'S11');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('SW-01','º“¿Ω±‚',6,'S11');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('SW-02','º“¿Ω±‚',7,'S11');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('SW-03','º“¿Ω±‚',5,'S11');
 
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('TI-01','ÌÉÄÏù¥Ïñ¥',7,'T7');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('TI-02','ÌÉÄÏù¥Ïñ¥',8,'T7');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('TI-03','ÌÉÄÏù¥Ïñ¥',12,'T8');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('TI-04','ÌÉÄÏù¥Ïñ¥',10,'T8');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('TI-01','≈∏¿ÃæÓ',7,'T7');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('TI-02','≈∏¿ÃæÓ',8,'T7');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('TI-03','≈∏¿ÃæÓ',12,'T8');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('TI-04','≈∏¿ÃæÓ',10,'T8');
 
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-01','Ìú†',3,'W13');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-02','Ìú†',7,'W13');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-03','Ìú†',2,'W14');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-04','Ìú†',5,'W14');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-05','Ìú†',6,'W15');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-01','»Ÿ',3,'W13');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-02','»Ÿ',7,'W13');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-03','»Ÿ',2,'W14');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-04','»Ÿ',5,'W14');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WH-05','»Ÿ',6,'W15');
 
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WP-01','ÏôÄÏù¥Ìçº',35,'W19');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WP-02','ÏôÄÏù¥Ìçº',8,'W19');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WP-03','ÏôÄÏù¥Ìçº',15,'W19');
-INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WP-04','ÏôÄÏù¥Ìçº',20,'W19');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WP-01','øÕ¿Ã∆€',35,'W19');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WP-02','øÕ¿Ã∆€',8,'W19');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WP-03','øÕ¿Ã∆€',15,'W19');
+INSERT INTO component_stock(component_code,classify,com_count,com_place) VALUES ('WP-04','øÕ¿Ã∆€',20,'W19');
 
 commit;
 
