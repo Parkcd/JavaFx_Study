@@ -33,7 +33,6 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
     <fullyQualifiedTypeName name="javafx.scene.control.PasswordField"/>
-    <fullyQualifiedTypeName name="javafx.beans.property.SimpleStringProperty"/>
     <fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
     <fullyQualifiedTypeName name="javafx.scene.control.TableColumn"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.BorderPane"/>
@@ -58,4 +57,7 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="model.Word"/>
     <fullyQualifiedTypeName name="javafx.beans.property.StringProperty"/>
+    <fullyQualifiedTypeName name="model.Word2"/>
+    <fullyQualifiedTypeName name="javafx.beans.property.SimpleStringProperty"/>
+    <fullyQualifiedTypeName name="com.sun.rowset.CachedRowSetImpl"/>
 </qualifiedTypeNameHistroy>

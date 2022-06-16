@@ -1,13 +1,13 @@
 package model;
 
 import javafx.beans.property.SimpleStringProperty;
-
 import javafx.beans.property.StringProperty;
 
 public class Word {
 
-	private final StringProperty korean;
-	private final StringProperty english;
+	private StringProperty korean;
+	private StringProperty english;
+	private StringProperty searchkorean; 
 
 	
 	public Word(String korean, String english) {
@@ -15,7 +15,6 @@ public class Word {
 		this.english = new SimpleStringProperty(english);
 	}
 	
-
 	
 	public String getKorean() {
 		return korean.get();
@@ -40,6 +39,5 @@ public class Word {
 	public StringProperty getEnglishProperty() {
 		return english;
 	}
-	
-	
+
 }

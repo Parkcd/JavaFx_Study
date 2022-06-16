@@ -2,6 +2,7 @@ package controller;
 
 import java.io.IOException;
 
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Alert;
@@ -10,6 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.Word;
+
 
 public class WordDataController {
 	
@@ -35,6 +37,8 @@ public class WordDataController {
 		koreanField.setText(word.getKorean());
 		englishField.setText(word.getEnglish());
 	}
+	
+
 	
 	public int getReturnValue() {
 		return returnValue;

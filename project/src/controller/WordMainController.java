@@ -2,9 +2,9 @@ package controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.Alert.AlertType;
 import model.Word;
 
 public class WordMainController {
@@ -73,7 +73,8 @@ public class WordMainController {
 	
 	@FXML
 	private void searchAction() {
-
-	}
 	
+		}
 }
+	
+
