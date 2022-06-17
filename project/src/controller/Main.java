@@ -46,8 +46,10 @@ public class Main extends Application {
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(Main.class.getResource("../view/RootLayout.fxml"));
 			rootLayout = (BorderPane) loader.load();
+			
 			// 루트 레이아웃을 퐘하는 Scene을 보여줍니다.
-			Scene scene = new Scene(rootLayout);
+			Scene scene = new Scene(rootLayout,340,600);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch (Exception e) {
@@ -90,14 +92,17 @@ public class Main extends Application {
 			dialogStage.setTitle("단어장 관리");
 			dialogStage.initModality(Modality.WINDOW_MODAL);
 			dialogStage.initOwner(primaryStage);
-			Scene scene = new Scene(page);
-			dialogStage.setScene(scene);
+		
+	
 			
 			WordDataController controller = loader.getController();
 			controller.setDialogStage(dialogStage);
 			controller.setWord(word);
-			
+			Scene scene = new Scene(page ,610 ,210);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			dialogStage.setScene(scene);
 			dialogStage.showAndWait();
+			
 			return controller.getReturnValue();
 		} catch (IOException e) {
 			e.printStackTrace();

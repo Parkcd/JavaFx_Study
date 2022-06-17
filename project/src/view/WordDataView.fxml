@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WordDataController">
+<AnchorPane fx:id="wordPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WordDataController">
    <children>
       <GridPane layoutX="21.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
         <columnConstraints>
@@ -19,20 +18,23 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="한글" />
-            <Label text="영어" GridPane.rowIndex="1" />
+            <Label text="한글">
+               <GridPane.margin>
+                  <Insets left="50.0" />
+               </GridPane.margin></Label>
+            <Label text="영어" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="50.0" />
+               </GridPane.margin></Label>
             <TextField fx:id="koreanField" GridPane.columnIndex="1" />
             <TextField fx:id="englishField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
          </children>
       </GridPane>
-      <ToolBar layoutX="143.0" layoutY="146.0" prefHeight="40.0" prefWidth="150.0">
+      <ToolBar layoutX="237.0" layoutY="150.0" prefHeight="40.0" prefWidth="137.0">
         <items>
           <Button mnemonicParsing="false" onAction="#confirmAction" prefHeight="23.0" prefWidth="60.0" text="확인" />
             <Button mnemonicParsing="false" onAction="#cancelAction" prefHeight="23.0" prefWidth="60.0" text="취소" />
         </items>
-         <padding>
-            <Insets left="15.0" />
-         </padding>
       </ToolBar>
    </children>
 </AnchorPane>
