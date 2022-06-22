@@ -22,6 +22,33 @@ public class WordDAO {
 			e.printStackTrace();
 		}
 	}
+	
+	
+	public String searchInfo(String korean) {
+		String SQL = "SELECT * FROM WORD";
+		String info="";
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			rs = pstmt.executeQuery();
+			int cnt=0;
+			while(rs.next()) {
+				if(rs.getString("korean").equals(korean)) {
+					info = "한글 : " +rs.getString("korean")  +" \n영어 : "+ rs.getString("english");
+					cnt++;
+				}
+			}
+			if(cnt==0) {
+				info = "그런 단어는 없습니다.";
+			}
+		}catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return info;
+	}
+	
+	
+	
 	public int deleteWordList() {
 		String SQL = "DELETE FROM WORD";
 		try {
@@ -58,7 +85,7 @@ public class WordDAO {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			rs = pstmt.executeQuery();
 			while (rs.next()) {
-				Word word = new Word(rs.getString(0), rs.getString(1));
+				Word word = new Word(rs.getString("korean"), rs.getString("english"));
 				wordList.add(word);
 			}
 		} catch (Exception e) {

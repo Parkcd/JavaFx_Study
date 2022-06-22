@@ -7,7 +7,7 @@ public class Word {
 
 	private StringProperty korean;
 	private StringProperty english;
-	private StringProperty searchkorean; 
+
 
 	
 	public Word(String korean, String english) {

@@ -110,6 +110,31 @@ public class Main extends Application {
 		}
 	}
 	
+	public void setSearchView() {
+		try {
+			FXMLLoader loader =  new FXMLLoader();
+			loader.setLocation(Main.class.getResource("/view/SearchDataView.fxml"));
+			AnchorPane page =  (AnchorPane) loader.load();
+			
+			Stage dialogStage = new Stage();
+			dialogStage.setTitle("한글 검색");
+			dialogStage.initModality(Modality.WINDOW_MODAL);
+			dialogStage.initOwner(primaryStage);
+			Scene scene = new Scene(page , 610 ,210);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			dialogStage.setScene(scene);
+			
+			
+			ComSearchController controller = (ComSearchController) loader.getController();
+			controller.setDialogStage(dialogStage);
+			
+			
+			dialogStage.showAndWait();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
 	
 
 	
@@ -145,7 +170,7 @@ public class Main extends Application {
 		alert.setTitle("알아보기");
 		alert.setHeaderText("<프로그램 정보>");
 		alert.setContentText("프로그램 버전 : 0.1 Ver\n"
-							+ "프로그램 개발자: 박성호\n"
+							+ "프로그램 개발자: 김봉재 , 박성호 , 이희수 , 송민준\n"
 							+ "프로그램 설명: 한영사전 프로그램입니다.");
 		alert.showAndWait();
 	}

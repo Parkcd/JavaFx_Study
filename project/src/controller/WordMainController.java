@@ -5,6 +5,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 import model.Word;
 
 public class WordMainController {
@@ -21,7 +22,7 @@ public class WordMainController {
 	@FXML
 	private void initialize() {
 		korean.setCellValueFactory(cellData -> cellData.getValue().getKoreanProperty());
-		english.setCellValueFactory(cellData -> cellData.getValue().getEnglishProperty());
+		english.setCellValueFactory(new PropertyValueFactory<Word, String>("english"));
 	}
 	
 	public void setMain(Main main) {
@@ -73,8 +74,8 @@ public class WordMainController {
 	
 	@FXML
 	private void searchAction() {
-	
-		}
+		main.setSearchView();
+	}
 }
 	
 
